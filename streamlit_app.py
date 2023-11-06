@@ -41,7 +41,6 @@ try:
 
 
 # STOP
-streamlit.stop()
 
 # Snowflake connection
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
